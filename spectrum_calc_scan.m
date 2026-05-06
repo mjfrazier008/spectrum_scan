@@ -25,7 +25,7 @@ x = linspace(-1, 1, N+1);
 m1 = @(s) 2*s + 1;
 m2 = @(s) 2*s - 1;
 
-
+% specify model to use:
 B = @cold_plasma_tm_sc;
 tic;
 
